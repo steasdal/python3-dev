@@ -6,4 +6,6 @@ RUN pip install flask \
                 flask-restful \
                 gunicorn
 
+WORKDIR /root
+
 CMD ["python"]
