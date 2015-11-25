@@ -4,6 +4,7 @@ MAINTAINER Sam Teasdale <samuel.teasdale@gmail.com>
 
 RUN pip install flask \
                 flask-restful \
+		pytest \
                 gunicorn
 
 WORKDIR /root
